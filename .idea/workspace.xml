@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c381d3-4b51-4136-8425-c33162e327dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crawler" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/crawler/Main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/crawler/News/spiders/HotNewsSpider.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/crawler/News/spiders/MalaysiastockbizSpider.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/crawler/News/spiders/TestSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/.idea/StockNews.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/News/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/News/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/News/spiders/FirstSpider.py" beforeDir="false" />
@@ -184,24 +191,6 @@
             <path>
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
               <item name="FYP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
@@ -744,12 +733,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4957039" visible="true" weight="0.31444758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4957039" visible="true" weight="0.31444758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
