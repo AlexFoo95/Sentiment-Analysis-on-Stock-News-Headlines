@@ -677,27 +677,27 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.te" />
-      <item itemvalue="Python.SystemTestingGUI" />
-      <item itemvalue="Python.SaveDataset (1)" />
-      <item itemvalue="Python.Testing2" />
-      <item itemvalue="Python.TestModel" />
-      <item itemvalue="Python.RNNModel (1)" />
-      <item itemvalue="Python.Testing (1)" />
-      <item itemvalue="Python.LoadData (1)" />
-      <item itemvalue="Python.SaveDataset" />
+      <item itemvalue="Python.CompanySpider" />
       <item itemvalue="Python.EdgeSpider" />
-      <item itemvalue="Python.entrypoint" />
-      <item itemvalue="Python.entrypoint (1)" />
-      <item itemvalue="Python.RNNModel" />
-      <item itemvalue="Python.example" />
-      <item itemvalue="Python.Testing" />
-      <item itemvalue="Python.NewsCollector" />
-      <item itemvalue="Python.tokenize" />
+      <item itemvalue="Python.LoadData (1)" />
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.MalaysiastockbizSpider" />
+      <item itemvalue="Python.NewsCollector" />
+      <item itemvalue="Python.RNNModel (1)" />
+      <item itemvalue="Python.RNNModel" />
       <item itemvalue="Python.SaveCompany" />
-      <item itemvalue="Python.CompanySpider" />
+      <item itemvalue="Python.SaveDataset (1)" />
+      <item itemvalue="Python.SaveDataset" />
+      <item itemvalue="Python.SystemTestingGUI" />
+      <item itemvalue="Python.TestModel" />
+      <item itemvalue="Python.Testing (1)" />
+      <item itemvalue="Python.Testing2" />
+      <item itemvalue="Python.Testing" />
+      <item itemvalue="Python.entrypoint (1)" />
+      <item itemvalue="Python.entrypoint" />
+      <item itemvalue="Python.example" />
+      <item itemvalue="Python.te" />
+      <item itemvalue="Python.tokenize" />
     </list>
     <recent_temporary>
       <list>
