@@ -9,7 +9,6 @@ class SentimentDataset(Epoch):
         B = self.batch_size
         N = self.num_steps
 
-
         sentiment = np.zeros([B], np.int64)
         token = np.zeros([B, N], np.int64)
         weight = np.zeros([B, N], np.int64)
@@ -58,3 +57,10 @@ def load_data():
     train_id_data = TextConverter.convert(train_txt_data, label_vocab, token_vocab)
 
     return train_id_data, token_vocab, label_vocab
+
+
+def load_predict_info():
+    token_vocab = Vocab(mode='token')
+    label_vocab = Vocab(mode='label')
+
+    return token_vocab, label_vocab

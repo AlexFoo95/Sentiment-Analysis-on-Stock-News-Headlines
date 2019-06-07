@@ -12,7 +12,7 @@ import psycopg2
 import sys
 from tkinter import messagebox
 from Predict import predict
-from SentimentDataset import load_data
+from SentimentDataset import load_predict_info
 
 try:
     import Tkinter as tk
@@ -65,54 +65,59 @@ class SA:
     def predictFile(self):
         file = self.Entry2.get();
 
-        if file.lower().endswith(('.txt', '.csv')):
-            conn = psycopg2.connect(host="localhost", database="StockMarket", user="postgres", password="dihi04cuqe")
-            cur = conn.cursor()
-            times = str(time.strftime("%d%m%Y%H%M%S"))
-            filename = "PredictOutput" + times + ".xlsx"
-            workbook = xlsxwriter.Workbook(filename)
-            worksheet = workbook.add_worksheet()
-            worksheet.write(0, 0, 'News Headlines')
-            worksheet.write(0, 1, 'Polarity')
-            worksheet.write(0, 2, 'Probability')
+        try:
+            if file.lower().endswith(('.txt', '.csv')):
+                conn = psycopg2.connect(host="localhost", database="StockMarket", user="postgres",
+                                        password="dihi04cuqe")
+                cur = conn.cursor()
+                times = str(time.strftime("%d%m%Y%H%M%S"))
+                filename = "PredictOutput" + times + ".xlsx"
+                workbook = xlsxwriter.Workbook(filename)
+                worksheet = workbook.add_worksheet()
+                worksheet.write(0, 0, 'News Headlines')
+                worksheet.write(0, 1, 'Polarity')
+                worksheet.write(0, 2, 'Probability')
 
-            row = 1
-            col = 0
+                row = 1
+                col = 0
 
-            train_id_data, token_vocab, label_vocab = load_data()
-            with open(file, "r", encoding='utf-8') as f:
-                for headlines in f:
-                    headlines = headlines.rstrip('\n\r')
-                    polarity, probability = predict(token_vocab, label_vocab, headlines)
+                token_vocab, label_vocab = load_predict_info()
+                with open(file, "r", encoding='utf-8') as f:
+                    for headlines in f:
+                        headlines = headlines.rstrip('\n\r')
+                        polarity, probability = predict(token_vocab, label_vocab, headlines)
 
-                    if polarity == 'POS':
-                        polarity = 'POSITIVE'
+                        if polarity == 'POS':
+                            polarity = 'POSITIVE'
 
-                    if polarity == 'NEU':
-                        polarity = 'NEUTRAL'
+                        if polarity == 'NEU':
+                            polarity = 'NEUTRAL'
 
-                    if polarity == 'NEG':
-                        polarity = 'NEGATIVE'
+                        if polarity == 'NEG':
+                            polarity = 'NEGATIVE'
 
-                    probability = str(probability)
-                    sql = """INSERT INTO public."testing_records"("test_news","test_polarity","test_probability") VALUES ( %s, %s, %s);"""
-                    data = (headlines, polarity, probability)
-                    cur.execute(sql, data)
+                        probability = str(probability)
+                        sql = """INSERT INTO public."testing_records"("test_news","test_polarity","test_probability") VALUES ( %s, %s, %s);"""
+                        data = (headlines, polarity, probability)
+                        cur.execute(sql, data)
 
-                    print(headlines,polarity,probability)
-                    worksheet.write(row, col, headlines)
-                    worksheet.write(row, col + 1, polarity)
-                    worksheet.write(row, col + 2, probability)
-                    row += 1
+                        print(headlines, polarity, probability)
+                        worksheet.write(row, col, headlines)
+                        worksheet.write(row, col + 1, polarity)
+                        worksheet.write(row, col + 2, probability)
+                        row += 1
 
-            conn.commit()
-            workbook.close()
-            os.startfile(filename)
+                conn.commit()
+                workbook.close()
+                os.startfile(filename)
 
 
 
-        else:
-            messagebox.showinfo("Error", "Please insert the correct format file")
+            else:
+                messagebox.showinfo("Error", "Please insert the correct format file")
+        except:
+            messagebox.showinfo("Error", "The file inserted had some error, please try again.")
+
 
     def predict(self):
         headline = self.Entry1.get();
@@ -123,7 +128,7 @@ class SA:
             conn = psycopg2.connect(host="localhost", database="StockMarket", user="postgres", password="dihi04cuqe")
             cur = conn.cursor()
 
-            train_id_data, token_vocab, label_vocab = load_data()
+            token_vocab, label_vocab = load_predict_info()
             polarity, probability = predict(token_vocab, label_vocab, headline)
             if polarity == 'POS':
                 polarity = 'POSITIVE'
@@ -350,7 +355,7 @@ class SA:
         self.Label3.configure(background="#d9d9d9")
         self.Label3.configure(disabledforeground="#a3a3a3")
         self.Label3.configure(foreground="#000000")
-        self.Label3.configure(text='''Sentiment Analysis Probability :''')
+        self.Label3.configure(text='''Sentiment Analysis Accuracy :''')
         self.Label3.configure(width=232)
 
         self.Text2 = tk.Text(self.Frame1)

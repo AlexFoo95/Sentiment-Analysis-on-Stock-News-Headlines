@@ -1,6 +1,0 @@
-{% extends "webapp/header.html" %}
-{% block content %}
-	{% for News in object_list %}
-		<h5>{{ News.published_date}}<a href="/webapp/{{News.id}}">  {{ News.title }}</a></h5>
-	{% endfor %}
-{% endblock %}

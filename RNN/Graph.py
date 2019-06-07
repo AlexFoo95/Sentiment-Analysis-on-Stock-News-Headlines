@@ -71,3 +71,5 @@ def load_graph(frozen_graph_filename):
         # Since we load everything in a new graph, this is not needed
         tf.import_graph_def(graph_def, name="prefix")
     return graph
+
+

@@ -1,26 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6c381d3-4b51-4136-8425-c33162e327dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/News/spiders/HotNewsSpider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/News/spiders/MalaysiastockbizSpider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/News/spiders/TestSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a6c381d3-4b51-4136-8425-c33162e327dd" name="Default Changelist" comment="Update crawler">
+      <change afterPath="$PROJECT_DIR$/Dataset/TrainAccuracy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/RunBothNewsCrawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FYP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FYP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/StockNews.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/News/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/News/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/News/spiders/FirstSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/News/spiders/example.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/entrypoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/entrypoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/SaveDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/SaveTrainingDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/SaveLabel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/SaveLabel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/SaveNews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TokenProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/TokenProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/headlines_dataset.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/headlines_dataset.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/Frozen_graph.tf.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/Predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/Predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/SentimentDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/SentimentDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/TextPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/TextPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/TrainData.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/TrainData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/events.out.tfevents.1547820675.MSI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/graph.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3638.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3638.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3638.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3993.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3993.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-3993.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4298.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4298.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4298.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4569.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4569.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4569.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4879.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4879.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/trained_models/model.ckpt-4879.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SATestingGUI/PredictOutput26012019163721.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SATestingGUI/Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockCompany/SaveCompany.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockCompany/SaveCompany.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler" beforeDir="false" afterPath="$PROJECT_DIR$/crawler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/News/spiders/CompanyNewsSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/spiders/CompanyNewsSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/News/spiders/LatestNewsSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/News/spiders/LatestNewsSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/RunCompanyNewsCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/RunCompanyNewsCrawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/RunLatestNewsCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/RunLatestNewsCrawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/stockmarket_website/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/stockmarket_website/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/stockmarket_website/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/SaveTestingDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/TestAccuracy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/templates/webapp/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/templates/webapp/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockmarket_website/webapp/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,34 +71,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/News/spiders/Testspider.py">
+        <entry file="file://$PROJECT_DIR$/crawler/News/spiders/CompanyNewsSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="202" column="50" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="50" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py">
+        <entry file="file://$PROJECT_DIR$/crawler/News/spiders/LatestNewsSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="340">
+              <caret line="176" column="25" lean-forward="true" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -67,10 +95,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/entrypoint.py">
+        <entry file="file://$PROJECT_DIR$/crawler/RunBothNewsCrawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/RunCompanyNewsCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/RunLatestNewsCrawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="e#1#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +160,12 @@
       <find>j</find>
       <find>10</find>
       <find>hi</find>
+      <find>saver.save</find>
+      <find>predict_accuracy</find>
+      <find>Predict_accuracy</find>
+      <find>literal</find>
+      <find>2019-03-13</find>
+      <find>https://www.malaysiastock.biz/News.aspx?newsID=43894</find>
     </findStrings>
     <dirStrings>
       <dir>E:\Pycharm Project\FYP</dir>
@@ -117,62 +178,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NewRNN/vocab.py" />
-        <option value="$PROJECT_DIR$/NewRNN/tokenize.py" />
-        <option value="$PROJECT_DIR$/RNN/Testing.py" />
-        <option value="$PROJECT_DIR$/RNN/LoadData.py" />
-        <option value="$PROJECT_DIR$/RNN/labels.txt" />
-        <option value="$PROJECT_DIR$/RNN/textpos.txt" />
-        <option value="$PROJECT_DIR$/RNN/textneg.txt" />
-        <option value="$PROJECT_DIR$/RNN/textneu.txt" />
-        <option value="$PROJECT_DIR$/RNN/token.txt" />
-        <option value="$PROJECT_DIR$/RNN/Dataset.txt" />
-        <option value="$PROJECT_DIR$/RNN/Dataset3.txt" />
-        <option value="$PROJECT_DIR$/RNN/sentences.txt" />
-        <option value="$PROJECT_DIR$/RNN/Dataset2.txt" />
-        <option value="$PROJECT_DIR$/RNN/testtest.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/RNN/SaveDataset.py" />
-        <option value="$PROJECT_DIR$/mysite/bm/models.py" />
-        <option value="$PROJECT_DIR$/mysite/bm/urls.py" />
-        <option value="$PROJECT_DIR$/RNN/main.py" />
-        <option value="$USER_HOME$/Anaconda3/envs/FYP/Lib/site-packages/tensorflow/python/ops/array_ops.py" />
-        <option value="$PROJECT_DIR$/RNN/vocab.py" />
-        <option value="$PROJECT_DIR$/RNN/testpredict.py" />
-        <option value="$PROJECT_DIR$/RNN/main2.py" />
-        <option value="$PROJECT_DIR$/RNN/predict.py" />
-        <option value="$PROJECT_DIR$/RNN/Testing2.py" />
-        <option value="$PROJECT_DIR$/RNN/RNN.py" />
-        <option value="$PROJECT_DIR$/RNN/PredictNews.py" />
+        <option value="$PROJECT_DIR$/crawler/News/items.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/form.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/templates/webapp/TNews.html" />
+        <option value="$PROJECT_DIR$/stockmarket_website/stockmarket_website/urls.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/forms.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/templates/webapp/CNews.html" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/test2.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/test3.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/test.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/TopNewsSpider.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/correction.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/templates/webapp/home.html" />
+        <option value="$PROJECT_DIR$/../test3.py" />
+        <option value="$PROJECT_DIR$/../News/SaveNews.py" />
+        <option value="$PROJECT_DIR$/../News/StarSpider.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/testtest.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/views.py" />
+        <option value="$PROJECT_DIR$/StockCompany/SaveCompany.py" />
+        <option value="$PROJECT_DIR$/StockCompany/save.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/admin.py" />
+        <option value="$PROJECT_DIR$/../test2.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/models.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/Testspider.py" />
+        <option value="$PROJECT_DIR$/Dataset/movedata.py" />
+        <option value="$PROJECT_DIR$/../test.py" />
+        <option value="$PROJECT_DIR$/crawler/entrypoint.py" />
+        <option value="$PROJECT_DIR$/crawler/Main.py" />
         <option value="$PROJECT_DIR$/RNN/TrainRNN.py" />
-        <option value="E:/FYP/StockNews/News/spiders/FirstSpider.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/StarSpider.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/TestSpider.py" />
+        <option value="$PROJECT_DIR$/RNN/SentimentDataset.py" />
+        <option value="$PROJECT_DIR$/crawler/try.py" />
+        <option value="$PROJECT_DIR$/SATestingGUI/Test.txt" />
+        <option value="$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py" />
+        <option value="$PROJECT_DIR$/Dataset/TokenProcessing.py" />
+        <option value="$PROJECT_DIR$/RNN/RNN.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/CompanyNewsSpider.py" />
+        <option value="$PROJECT_DIR$/crawler/News/spiders/LatestNewsSpider.py" />
         <option value="$PROJECT_DIR$/RNN/Predict.py" />
         <option value="$PROJECT_DIR$/RNN/TrainData.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/Malaysiastockbiz.py" />
-        <option value="$PROJECT_DIR$/StockCompany/Company.py" />
-        <option value="$PROJECT_DIR$/StockCompany/CreateComNewsStorage.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/te.py" />
-        <option value="$PROJECT_DIR$/RNN/SentimentDataset.py" />
-        <option value="$PROJECT_DIR$/Dataset/SaveDataset.py" />
-        <option value="$PROJECT_DIR$/Dataset/SaveLabel.py" />
-        <option value="$PROJECT_DIR$/Dataset/TokenProcessing.py" />
+        <option value="$PROJECT_DIR$/crawler/News/RunBothNewsCrawler.py" />
+        <option value="$PROJECT_DIR$/crawler/RunBothNewsCrawler.py" />
+        <option value="$PROJECT_DIR$/crawler/RunCompanyNewsCrawler.py" />
+        <option value="$PROJECT_DIR$/crawler/RunLatestNewsCrawler.py" />
+        <option value="$PROJECT_DIR$/Dataset/TestAccuracy.py" />
+        <option value="$PROJECT_DIR$/Dataset/SaveTrainingDataset.py" />
+        <option value="$PROJECT_DIR$/Dataset/SaveTestingDataset.py" />
         <option value="$PROJECT_DIR$/RNN/TextPreprocessing.py" />
-        <option value="$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py" />
-        <option value="$PROJECT_DIR$/StockCompany/SaveCompany.py" />
-        <option value="$PROJECT_DIR$/crawler/Main.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/Testspider.py" />
-        <option value="$PROJECT_DIR$/crawler/News/items.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/HotNewsSpider.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/MalaysiastockbizSpider.py" />
-        <option value="$PROJECT_DIR$/crawler/entrypoint.py" />
-        <option value="$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py" />
+        <option value="E:/Desktop/CPT443/testing.py" />
+        <option value="$PROJECT_DIR$/unit.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/unit.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/stockmarket_website/settings.py" />
+        <option value="$PROJECT_DIR$/stockmarket_website/webapp/testingcode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="955" />
+    <option name="y" value="5" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -184,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,31 +256,61 @@
             <path>
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
               <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="RNN" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FYP" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FYP" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="E:/FYP/StockNews/News/spiders/FirstSpider.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="FYP" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="FYP" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Pycharm Project\FYP\Dataset" />
-      <recent name="E:\Pycharm Project\FYP\RNN" />
-      <recent name="E:\Pycharm Project\FYP\NewRNN" />
-      <recent name="E:\Pycharm Project\FYP\Test" />
-      <recent name="E:\Pycharm Project\FYP\dataset" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Pycharm Project\FYP\RNN" />
       <recent name="E:\Pycharm Project\FYP\crawler" />
       <recent name="E:\Pycharm Project\FYP\NewRNN" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pycharm Project\FYP\stockmarket_website\webapp" />
+      <recent name="E:\Pycharm Project\FYP\crawler" />
+      <recent name="E:\Pycharm Project\FYP\SATestingGUI" />
+      <recent name="E:\Pycharm Project\FYP\Dataset" />
+      <recent name="E:\Pycharm Project\FYP\Main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,28 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
-    <configuration name="CompanySpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FYP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/News/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Twisted Trial for testingcode.TestSum">
     <configuration name="EdgeSpider" type="PythonConfigurationType" factoryName="Python">
       <module name="FYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
       <module name="FYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,28 +380,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MalaysiastockbizSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FYP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/News/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/News/spiders/MalaysiastockbizSpider.py" />
+      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\crawler\RunLatestNewsCrawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,7 +452,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SaveCompany" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RunBothNewsCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,11 +460,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StockCompany" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StockCompany/SaveCompany.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/RunBothNewsCrawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -436,7 +485,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\Dataset\SaveDataset.py" />
+      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\Dataset\SaveTrainingDataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveDataset (2)" type="PythonConfigurationType" factoryName="Python">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\Dataset\SaveTrainingDataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,6 +528,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaveDataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SaveNews" type="PythonConfigurationType" factoryName="Python">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dataset/SaveNews.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -571,6 +662,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TokenProcessing" type="PythonConfigurationType" factoryName="Python">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\Dataset\TokenProcessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="entrypoint (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="FYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -583,7 +695,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/entrypoint.py" />
+      <option name="SCRIPT_NAME" value="E:\Pycharm Project\FYP\crawler\RunCompanyNewsCrawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -634,6 +746,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stockmarket_website/stockmarket_website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stockmarket_website/stockmarket_website/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="te" type="PythonConfigurationType" factoryName="Python">
       <module name="FYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -676,35 +809,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Twisted Trial for stockmarket_website.webapp.testingcode" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;stockmarket_website.webapp.testingcode&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial for testingcode.TestSum" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stockmarket_website/webapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testingcode.TestSum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in testingcode.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="FYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stockmarket_website/webapp/testingcode.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.CompanySpider" />
-      <item itemvalue="Python.EdgeSpider" />
-      <item itemvalue="Python.LoadData (1)" />
-      <item itemvalue="Python.Main" />
-      <item itemvalue="Python.MalaysiastockbizSpider" />
-      <item itemvalue="Python.NewsCollector" />
-      <item itemvalue="Python.RNNModel (1)" />
-      <item itemvalue="Python.RNNModel" />
-      <item itemvalue="Python.SaveCompany" />
-      <item itemvalue="Python.SaveDataset (1)" />
-      <item itemvalue="Python.SaveDataset" />
-      <item itemvalue="Python.SystemTestingGUI" />
-      <item itemvalue="Python.TestModel" />
-      <item itemvalue="Python.Testing (1)" />
-      <item itemvalue="Python.Testing2" />
-      <item itemvalue="Python.Testing" />
-      <item itemvalue="Python.entrypoint (1)" />
-      <item itemvalue="Python.entrypoint" />
-      <item itemvalue="Python.example" />
+      <item itemvalue="Python.SaveNews" />
+      <item itemvalue="Python.SaveDataset (2)" />
+      <item itemvalue="Python.TokenProcessing" />
       <item itemvalue="Python.te" />
+      <item itemvalue="Python.SystemTestingGUI" />
+      <item itemvalue="Python.SaveDataset (1)" />
+      <item itemvalue="Python.Testing2" />
+      <item itemvalue="Python.TestModel" />
+      <item itemvalue="Python.RNNModel (1)" />
+      <item itemvalue="Python.Testing (1)" />
+      <item itemvalue="Python.LoadData (1)" />
+      <item itemvalue="Python.SaveDataset" />
+      <item itemvalue="Python.EdgeSpider" />
+      <item itemvalue="Python.entrypoint" />
+      <item itemvalue="Python.entrypoint (1)" />
+      <item itemvalue="Python.RNNModel" />
+      <item itemvalue="Python.example" />
+      <item itemvalue="Python.Testing" />
+      <item itemvalue="Python.NewsCollector" />
       <item itemvalue="Python.tokenize" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.RunBothNewsCrawler" />
+      <item itemvalue="Python.settings" />
+      <item itemvalue="Python tests.Twisted Trial for stockmarket_website.webapp.testingcode" />
+      <item itemvalue="Python tests.Twisted Trial in testingcode.py" />
+      <item itemvalue="Python tests.Twisted Trial for testingcode.TestSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.SaveCompany" />
-        <item itemvalue="Python.CompanySpider" />
-        <item itemvalue="Python.MalaysiastockbizSpider" />
+        <item itemvalue="Python tests.Twisted Trial for testingcode.TestSum" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python tests.Twisted Trial in testingcode.py" />
+        <item itemvalue="Python tests.Twisted Trial for stockmarket_website.webapp.testingcode" />
+        <item itemvalue="Python.RunBothNewsCrawler" />
       </list>
     </recent_temporary>
   </component>
@@ -719,7 +900,47 @@
       <option name="presentableId" value="Default" />
       <updated>1539154257687</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update crawler">
+      <created>1551024513710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551024513710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_unit_py - 2019.05.18 at 18h 38m 50s.xml">
+      <configuration name="Twisted Trial in unit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_unit_py - 2019.05.18 at 18h 39m 39s.xml">
+      <configuration name="Twisted Trial in unit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_unit_py - 2019.05.18 at 18h 41m 01s.xml">
+      <configuration name="Twisted Trial in unit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 18h 43m 31s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 19h 02m 23s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 19h 12m 22s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 19h 13m 28s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 19h 14m 41s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_testingcode_py - 2019.05.18 at 19h 17m 40s.xml">
+      <configuration name="Twisted Trial in testingcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_testingcode_TestSum - 2019.05.18 at 19h 19m 14s.xml">
+      <configuration name="Twisted Trial for testingcode.TestSum" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,31 +953,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25585938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4957039" visible="true" weight="0.31444758" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32784638" />
+      <window_info anchor="bottom" x="0" y="11" width="1536" height="801" id="Run" order="2" sideWeight="0.49504295" type="WINDOWED" weight="0.31824416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.04249292" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3186969" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4970258" weight="0.3796034" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029742" side_tool="true" weight="0.3796034" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4970258" weight="0.26200274" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.504957" side_tool="true" weight="0.3127572" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/News crawler" />
       <path value="$PROJECT_DIR$/Scap" />
     </ignored-roots>
+    <MESSAGE value="Update crawler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update crawler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,89 +997,74 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/envs/FYP/Lib/site-packages/tensorflow/python/client/session.py">
+    <entry file="file://$PROJECT_DIR$/../test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="1075" selection-start-line="1075" selection-end-line="1075" />
+        <state relative-caret-position="-34">
+          <caret line="4" column="83" lean-forward="true" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/test2.py" />
-    <entry file="file://$PROJECT_DIR$/RNN/token2.txt" />
-    <entry file="file://$PROJECT_DIR$/RNN/token.txt" />
-    <entry file="file://$PROJECT_DIR$/RNN/neg.txt" />
-    <entry file="file://$PROJECT_DIR$/RNN/LoadData.py" />
-    <entry file="file://$PROJECT_DIR$/RNN/testpredict.py" />
-    <entry file="file://E:/FYP/StockNews/News/spiders/FirstSpider.py" />
-    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI_support.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py.bak1" />
-    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.tcl">
+    <entry file="file://$PROJECT_DIR$/Dataset/movedata.py" />
+    <entry file="file://$PROJECT_DIR$/RNN/Frozen_graph.tf.pb" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FYP/Lib/site-packages/scrapy/shell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836" />
+        <state relative-caret-position="-459" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.tcl.bak1" />
-    <entry file="file://$PROJECT_DIR$/RNN/labels.txt" />
-    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/admin.py">
+    <entry file="file://$PROJECT_DIR$/SATestingGUI/Test.txt" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FYP/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="6294">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FYP/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4473">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/model.ckpt-25627.data-00000-of-00001" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/model.ckpt-25627.index" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/model.ckpt-25627.meta" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/graph.pbtxt" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/events.out.tfevents.1555518778.MSI" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/save_models.ckpt/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/models.ckpt/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="111" column="38" selection-start-line="110" selection-start-column="15" selection-end-line="111" selection-end-column="38" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#191#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/models.py">
+    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/LatestNewsSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/AllNewsSpider.py" />
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/te.py" />
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/testing.py" />
-    <entry file="file://$PROJECT_DIR$/crawler/DisplayWebsite.py" />
-    <entry file="file://$PROJECT_DIR$/crawler/labels.txt" />
-    <entry file="file://$PROJECT_DIR$/StockCompany/CreateComNewsStorage.py" />
-    <entry file="file://$PROJECT_DIR$/Dataset/labels.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/SaveDataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="172" column="39" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/SaveLabel.py">
+    <entry file="file://$PROJECT_DIR$/RNN/Trained_models/AI_models.ckpt/model.ckpt-42764.meta" />
+    <entry file="file://$PROJECT_DIR$/RNN/Predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/TokenProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/Try.py" />
     <entry file="file://$PROJECT_DIR$/RNN/Graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -865,171 +1077,220 @@
     <entry file="file://$PROJECT_DIR$/RNN/HParam.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/TrainRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockmarket_website/stockmarket_website/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/PredictNews.py" />
+    <entry file="file://$PROJECT_DIR$/StockCompany/AA.txt" />
+    <entry file="file://$PROJECT_DIR$/StockCompany/save.py" />
     <entry file="file://$PROJECT_DIR$/StockCompany/SaveCompany.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockmarket_website/stockmarket_website/settings.py">
+    <entry file="file://$PROJECT_DIR$/crawler/News/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224" />
+        <state relative-caret-position="-867" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/__init__.py">
+    <entry file="file://$PROJECT_DIR$/crawler/News/pipelines.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/Predict.py">
+    <entry file="file://$PROJECT_DIR$/crawler/News/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/News/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/RunLatestNewsCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#1#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/Frozen_graph.tf.pb">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/crawler/RunCompanyNewsCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TokenProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestAccuracy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/SaveLabel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/SaveTrainingDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TrainAccuracy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/SaveTestingDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RNN/RNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="-666">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/SentimentDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RNN/TextPreprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+        <state relative-caret-position="-1686">
+          <caret line="186" column="72" selection-start-line="186" selection-start-column="72" selection-end-line="186" selection-end-column="72" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_trial_temp/test.log" />
+    <entry file="file://$PROJECT_DIR$/RNN/TrainRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Desktop/CPT443/testing.py" />
+    <entry file="file://E:/Desktop/CPT443/views.py" />
     <entry file="file://$PROJECT_DIR$/RNN/TrainData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="153">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/SentimentDataset.py">
+    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SATestingGUI/SystemTestingGUI.py">
+    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="142" column="88" selection-start-line="142" selection-start-column="88" selection-end-line="142" selection-end-column="88" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#191#200#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/StarSpider.py" />
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/BursaSpider.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/HotNewsSpider.py">
+    <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="442">
+          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/items.py">
+    <entry file="file://$PROJECT_DIR$/stockmarket_website/stockmarket_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockmarket_website/webapp/testingcode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/MalaysiastockbizSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/entrypoint.py">
+    <entry file="file://$PROJECT_DIR$/crawler/RunBothNewsCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/Testspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/Main.py">
+    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/CompanyNewsSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="307">
+          <caret line="202" column="50" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="50" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_FYP.zip/FYP/crawler/News/spiders/CompanySpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1162">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/News/spiders/CompanySpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

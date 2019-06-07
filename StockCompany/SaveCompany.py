@@ -15,6 +15,7 @@ num_cols = 2
 result_data =[]
 for curr_row in range(0, num_rows, 1):
     code = worksheet.cell_value(curr_row, 0)
+    code = str(code)
     name = worksheet.cell_value(curr_row, 1)
     sql = """INSERT INTO public."company"("company_name", "company_code") VALUES ( %s, %s);"""
     data = (name,code)

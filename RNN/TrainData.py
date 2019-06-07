@@ -6,13 +6,13 @@ import numpy as np
 
 def train(train_id_data, num_vocabs, num_taget_class):
 
-    max_epoch = 5000
-    model_dir = "./trained_models"
+    max_epoch = 200
+    model_dir = "E:\Pycharm Project\FYP\RNN\Trained_models\save_models.ckpt"
     hps = RNN.get_default_hparams()
     hps.update(
-                    batch_size= 200,
-                    num_steps = 150,
-                    emb_size  = 70,
+                    batch_size= 150,
+                    num_steps = 120,
+                    emb_size  = 100,
                     enc_dim   = 150,
                     vocab_size=num_vocabs + 1,
                     num_target_class=num_taget_class
@@ -32,6 +32,7 @@ def train(train_id_data, num_vocabs, num_taget_class):
 
         train_data_set = SentimentDataset(train_id_data, hps.batch_size, hps.num_steps)
         losses = []
+
         while not sv.should_stop():
             fetches = [model.global_step, model.loss, model.train_op]
             a_batch_data = next( train_data_set.iterator )
@@ -58,5 +59,5 @@ def train(train_id_data, num_vocabs, num_taget_class):
     sv.stop()
 
     # model.out_pred, model.out_probs
-    freeze_graph(model_dir, "model/out_pred,model/out_probs", "Frozen_graph.tf.pb") ## freeze graph with params to probobuf format
+    freeze_graph(model_dir, "model/out_pred,model/out_probs", "Final_graph.tf.pb") ## freeze graph with params to probobuf format
 

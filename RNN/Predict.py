@@ -7,13 +7,13 @@ from SentimentDataset import SentimentDataset
 
 def predict(token_vocab, label_vocab, sent):  # mode = 'file' | 'sentence'
     os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # force to use cpu only (prediction)
-    #model_dir = "./trained_models"
+    #model_dir = "./Trained_models"
     # prepare sentence converting
     # to make raw sentence to id data easily
     in_sent = '{}\t{}'.format('___DUMMY_CLASS___', sent)
     pred_data = TextProcessing(in_sent, mode='sentence')
     pred_id_data = TextConverter.convert(pred_data, label_vocab, token_vocab)
-    pred_data_set = SentimentDataset(pred_id_data, 1, 150)
+    pred_data_set = SentimentDataset(pred_id_data, 1, 120)
 
     #
     a_batch_data = next(pred_data_set.predict_iterator)  # a result
@@ -21,7 +21,7 @@ def predict(token_vocab, label_vocab, sent):  # mode = 'file' | 'sentence'
 
     # Restore graph
     # note that Frozen_graph.tf.pb contains graph definition with parameter values in binary format
-    _graph_fn = ('E:\Pycharm Project\FYP\RNN\Frozen_graph.tf.pb')
+    _graph_fn = ('E:\Pycharm Project\FYP\RNN\Final_graph.tf.pb')
     with tf.gfile.GFile(_graph_fn, "rb") as f:
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(f.read())
@@ -52,6 +52,6 @@ def predict(token_vocab, label_vocab, sent):  # mode = 'file' | 'sentence'
         pred_probs = b_pred_probs[0]
 
         best_target_class = label_vocab.get_symbol(best_pred_index)
-        print('Sentiment analysis result:', best_target_class, '   Predict_probability:', pred_probs[best_pred_index])
+        #print('Sentiment analysis result:', best_target_class, '   Predict_accuracy:', pred_probs[best_pred_index])
 
     return best_target_class, pred_probs[best_pred_index]
